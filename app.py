@@ -3,8 +3,6 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import nltk
 
-from sklearn.feature_extraction.text import TfidfVectorizer
-
 import joblib
 import re
 import streamlit as st
