@@ -26,6 +26,7 @@ def lemmatize_tokens(tokens):
 
 # install nessary files
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 st.title("Sentiment Analysis")
 
