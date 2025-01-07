@@ -24,6 +24,10 @@ def lemmatize_tokens(tokens):
             lemmatized_words.append(lemmatized_word)
         return lemmatized_words
 
+# install nessary files
+nltk.download('punkt_tab')
+nltk.download('')
+
 st.title("Sentiment Analysis")
 
 txt = st.text_area("Write Something...")
