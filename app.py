@@ -25,9 +25,9 @@ def lemmatize_tokens(tokens):
         return lemmatized_words
 
 # install nessary files
-# nltk.download('punkt_tab')
-# nltk.download('stopwords')
-# nltk.download('wordnet')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 st.title("Sentiment Analysis")
 
